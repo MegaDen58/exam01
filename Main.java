@@ -28,7 +28,7 @@ public class Main {
         int[] array;
         int max;
 
-        MaxValue(int[] array){
+        MaxValue(int[] array){ // конструктор
             this.array = array;
         }
 
@@ -46,7 +46,7 @@ public class Main {
         int[] array;
         int min;
 
-        MinValue(int[] array){
+        MinValue(int[] array){ // конструктор
             this.array = array;
         }
 
