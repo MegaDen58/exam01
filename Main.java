@@ -32,9 +32,7 @@ public class Main {
         public void run() {
             max = array[0];
             for(int k : array){
-                if(k > max){
-                    max = k;
-                }
+                if(k > max) max = k;
             }
             System.out.printf("Максимальное значение массива: %s", max + "\n");
         }
@@ -52,9 +50,7 @@ public class Main {
         public void run() {
             min = array[0];
             for(int k : array){
-                if(k < min){
-                    min = k;
-                }
+                if(k < min) min = k;
             }
             System.out.printf("Минимальное значение массива: %s", min + "\n");
         }
